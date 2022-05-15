@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(247, 105, 53);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 3px rgb(180, 180, 180);
+}
+#container{
+    height: 70px;
+    width: 1200px;
+    
+    
+}
+#s2 img{
+    position: relative;
+    height: 35px;
+    bottom: 7px;
+    left: 488px;
+}
+.s1{
+    display:;
+}
+.s1 a{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+#sp1{
+    position: relative;
+    bottom:43px;
+    left: 1172px;
+    font-size: 17px;
+    text-decoration: none;
+}
+#sp2{
+    color: white;
+    position: relative;
+    bottom: 43px;
+    left: 1120px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#sp3{
+    position: relative;
+    left: 1070px;
+    bottom:43px;
+    text-decoration: none;
+}
+.container2{
+    display: flex;
+    width: 1200px;
+    height: 475px;
+    background-color: ;
+    justify-content: space-between;
+    margin-top:50px;
+    margin-left: 160px;
+    
+}
+.immagini{
+    height: 500px;
+}
+.heart{
+    background-color: white;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+}
+.heart:hover{
+    color: red;
+}
+.red{
+    color: red;
+}
+.redb{
+    display: flex;
+    padding: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    font-size:15px; 
+    color: white;
+    width: 60px;
+    justify-content: center
+}
+.greenb{
+    display: flex;
+    padding: 5px;
+    background-color: green;
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+    font-size:15px; 
+    color: white;
+    width: 100px;
+    justify-content: center;
+   
+}
+.immagini2{
+    display: none;
+    height: 500px;
+}
+.sez:hover .immagini{
+    display: none;
+}
+.sez:hover .immagini2{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   cursor: pointer;
+}
+.sez{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   cursor: pointer;
+}
+#cont2-0{
+    margin-top: 100px;
+}
+#greenb2{
+    left:0;
+}
